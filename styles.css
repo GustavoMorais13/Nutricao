@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1 {
+    color: #333;
+    margin: 20px;
+}
+
+.paragrafo-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.menu {
+    height: 330px;
+    width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 15px;
+}
+.input-altura, .input-peso {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: 0.3s;
+}
+
+.calcular {
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu button:hover {
+    transform: translateY(-1.5px); /* Ele "sobe" levemente */
+    background-color: #218838;
+}
+
+.menu button:active {
+    transform: translateY(0); /* Volta ao normal quando clica */
+}
+
+.menu-abaixo {
+    height: auto;
+    width: 700px;
+    background: #00796b;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 15px;
+}
+
+
+.dicas-abaixo-peso {
+    text-align: left;
+    margin: 20px 20px 20px 40px;
+    padding: 40px;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    width: 90%;
+    list-style-type: disc;
+    color: #00796b;
+    box-shadow: #02ccb4 0px 0px 10px;
+}
+li{
+    margin: 10px 0;
+}
+
+li::marker {
+    color: #026464;
+    font-size: 1.2em;
+}
+
+
+.titulo-abaixo {
+    color: whitesmoke;
+    margin: 20px 0;
+    text-align: center;
+}
+
+h2 {
+    color: whitesmoke;
+    margin: 15px 0;
+    text-align: center;
+}
+
+p {
+    color: whitesmoke;
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
